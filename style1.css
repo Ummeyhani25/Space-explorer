@@ -1,0 +1,38 @@
+input[type="text"]{
+background-color: bisque;
+}
+body {
+
+font-family: 'Arial', sans-serif;
+
+background-color: #0D1117;
+
+color: #C9D1D9;
+
+}
+ul>li{
+    color: red;
+}
+h1+h2{
+    background-color: aqua;
+}
+li:hover {
+    background-color: blue;
+}
+li:nth-child(5){
+    color: orchid;
+
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+li::before{
+    content:"🚀";
+}
+a::after{
+    content:"➡️";
+}
+p::first-letter{
+    font-size: 200%;
+    color: yellowgreen;
+}
